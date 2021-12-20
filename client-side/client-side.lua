@@ -7,8 +7,8 @@ function block()
             local ped = PlayerPedId()
             for k,v in pairs(keys) do 
                 DisableControlAction(0, v, true) -- Nativa para desabilitar as teclas
-                DisablePlayerFiring(ped, true) -- Desativa o tiro
             end
+                DisablePlayerFiring(ped, true) -- Desativa o tiro
             Citizen.Wait(sleep)
         end
     end)
