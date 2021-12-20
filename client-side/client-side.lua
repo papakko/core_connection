@@ -9,7 +9,7 @@ function block()
                 DisableControlAction(0, v, true) -- Nativa para desabilitar as teclas
             end
                 DisablePlayerFiring(ped, true) -- Desativa o tiro
-            Citizen.Wait(sleep)
+            Citizen.Wait(0)
         end
     end)
 end
